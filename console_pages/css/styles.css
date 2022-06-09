@@ -1,0 +1,37 @@
+.controller_blob {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.controller_image {
+    max-width: 100%;
+}
+
+.controller_image_text {
+    background-color: aqua;
+
+    flex-basis: 40%;
+    font-size: 40px;
+    padding-left: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.led_blob {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.led_image {
+    max-width: 100%;
+}
+
+.led_image_text {
+    background-color: aqua;
+
+    flex-basis: 40%;
+    font-size: 40px;
+    padding-left: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
