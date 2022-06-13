@@ -1,3 +1,3 @@
 function send_email(){
-    window.open('mailto:test@example.com');
+    window.open('mailto:jake@bitfoxtech.com');
 }
