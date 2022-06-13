@@ -97,3 +97,13 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.nav_split a:hover {
+    background-color: #333;
+
+}
+
+.email_button {
+    width: 100px;
+    height: 50px;
+}
