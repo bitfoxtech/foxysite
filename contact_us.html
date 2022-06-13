@@ -61,8 +61,22 @@
         We will respond within 1 business day.
     </p>
     <!-- Form -->
-    <input class="email_button" type="submit" value="Send Email" onclick="send_email()"><br><br>
-</body>
+    <label for="name">Name: </label>
+    <input type="text" id="cust_name" name="cust_name"><br><br>
+    <label for="email">Email: </label>
+    <input type="text" id="cust_email" name="cust_email"><br><br>
+    <label for="product">What service are you interested in:</label>
+    <select name="product" id="product">
+        <option value="gaming_console">Gaming Console</option>
+        <option value="controller">Controllers</option>
+        <option value="computer_repair">Computer Repair</option>
+        <option value="computer_sales">Computer Sales</option>
+        <option value="sofrware">Software</option>
+        <option value="other">Other</option>
+    </select><br><br>
+    <label for="message">Message: </label><br>
+    <textarea id="message_body" name="message_body" rows="6" cols="60">Message here.</textarea><br><br>
+    <input type="submit" value="Submit" onclick="send_email()"></body>
 <footer>
     <hr>
     <p>
