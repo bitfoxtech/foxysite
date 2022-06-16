@@ -4,7 +4,7 @@ function insert_message() {
   var data = JSON.stringify({
     "user_name": document.getElementById("cust_name").value,
     "user_email": document.getElementById("cust_email").value,
-    "category": document.getElementById("product").value,
+    "category": document.getElementById("product").innerText,
     "body": document.getElementById("message_body").value
   })
   console.log(data);
