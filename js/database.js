@@ -10,6 +10,7 @@ function insert_message() {
   console.log(data);
   xmlHttp.send(data);
   console.log(xmlHttp.responseText)
+  alert("Message sent successfully")
   return xmlHttp.responseText;
 }
 
