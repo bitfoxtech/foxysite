@@ -1,6 +1,6 @@
-function send_message() {
+function insert_message() {
   var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open("POST", "https://bitfoxtech.com/foxyapi/send_message", false);
+  xmlHttp.open("POST", "https://bitfoxtech.com/foxyapi/insert_message", false);
   data = {
     "user_name": document.getElementById("cust_name").innerText,
     "user_email": document.getElementById("cust_email").innerText,
