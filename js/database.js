@@ -7,6 +7,7 @@ function insert_message() {
     "category": document.getElementById("product").innerText,
     "body": document.getElementById("message_body").innerText
   }
+  console.log(data);
   xmlHttp.send(data);
   console.log(xmlHttp.responseText)
   return xmlHttp.responseText;
