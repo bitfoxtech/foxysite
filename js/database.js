@@ -9,8 +9,13 @@ function insert_message() {
   })
   console.log(data);
   xmlHttp.send(data);
+  console.log(xmlHttp.statusText)
   console.log(xmlHttp.responseText)
-  alert("Message sent successfully")
+  if (xmlHttp.statusText == 200) {
+    alert("Message sent successfully")
+  } else {
+    alert("Oops, something went wrong. Please email us instead at jake@bitfoxtech.com")
+  }
   return xmlHttp.responseText;
 }
 
