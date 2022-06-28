@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <title>BitFox Tech</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="js/login.js"></script>
 </head>
 
 <body>
@@ -20,10 +21,7 @@
             BitFox Tech
         </div>
         <div class="login">
-            <a href="login.html"><input type="button" value="Login"></a>
-        </div>
-        <div class="signup">
-            <a href="signup.html"><input type="button" value="Sign Up"></a>
+            <input type="button" value="Login">
         </div>
     </header>
     <!-- Nav bar -->
@@ -62,32 +60,13 @@
         </div>
         <a href="contact_us.html">Contact Us</a>
     </div>
-    <!-- Brief description -->
-    <p>
-        Welcome! We are happy to have you. Please click on one of the navigation tabs above to check out our different
-        services. Or continue scrolling for some awesome content.
-    </p>
-    <p>
-        Founded in 2022 by Jake Stephens, BitFox Tech's goal is to provide gamers with elegant looking consoles and
-        offer repair services to those who are not careful with their things. Oops!
-    </p>
-    <p>
-        <a href="contact_us.html">Contact us</a> if you are interested in purchasing one of our products.
-    </p>
-    <h2>FOR SALE:</h2>
-    <br>
-    <div class="for_sale_blob">
-        <div class="for_sale_image">
-            <img src="for_sale/ps2_001/1.JPG" alt="PS2_001" width="400" height="400">
-            <img src="for_sale/ps2_001/2.JPG" alt="PS2_001" width="400" height="400">
-            <img src="for_sale/ps2_001/3.JPG" alt="PS2_001" width="400" height="400">
-        </div>
-        <div class="for_sale_text">
-            PS2 Superman Slim</br>
-            Price: $200.00</br>
-            Description: Custom paint job on this console with plexiglass windows to view the internals.
-        </div>  
-    </div>
+</br>
+    <!-- Login / Signup Form -->
+    <label for="email">Email: </label>
+    <input type="text" id="cust_email" name="cust_email"><br><br>
+    <label for="email">Password: </label>
+    <input type="text" id="cust_password" name="cust_password"><br><br>
+    <input type="submit" value="Login" onclick="login()">
 </body>
 <footer>
     <hr>

@@ -107,3 +107,15 @@ header {
     width: 100px;
     height: 50px;
 }
+
+.signup label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+}
+.signup input {
+    display: inline-block;
+    float: left;
+}
