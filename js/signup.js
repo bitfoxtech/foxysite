@@ -19,7 +19,7 @@ function signup() {
     xmlHttp.send(data);
     console.log(xmlHttp.status)
     console.log(xmlHttp.responseText)
-    if (xmlHttp.status == 200) {
+    if (xmlHttp.status == 201) {
       alert("Success. You can login now")
     } else {
       alert("Oops, something went wrong. Please email us instead at jake@bitfoxtech.com")
