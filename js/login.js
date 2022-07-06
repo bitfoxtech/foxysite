@@ -18,6 +18,9 @@ function login() {
     console.log(xmlHttp.responseText)
     if (xmlHttp.status == 200) {
       alert("Successfully logged in as " + document.getElementById("cust_email").value)
+      var userName = document.getElementById("cust_email").value;
+      '<%Session["UserName"] = "' + userName + '"; %>';
+      alert('<%=Session["UserName"] %>');
     } else {
       alert("Oops, something went wrong. Please email us instead at jake@bitfoxtech.com")
     }

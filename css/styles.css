@@ -115,7 +115,15 @@ header {
     width: 150px;
     text-align: left;
 }
-.signup input {
-    display: inline-block;
-    float: left;
+
+header ul {
+    margin-left: 30%;
+}
+
+header ul li {
+    padding-top: .5em;
+}
+
+header ul li button {
+
 }
